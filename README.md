@@ -27,15 +27,15 @@ It is **fully reproducible**, **schema-validated**, and **grounding-aware**.
 
 ## Capability with Description 
 
-**Prompt Builder**: Dynamically composes system and user prompts based on campaign brief and knowledge 
-**Schema validation** : Enforces `schema/campaign_schema.json` for ingestibility.
-**Grounding (KB)** : Fetches real product facts from `kb/products.json` to minimize hallucinations.
-**Creative Scoring**: Heuristic scoring based on headline, body, and CTA strength.
-**Logging** : Saves every run (brief, raw reply, final JSON, and errors) under `OUTPUTS/`.
-**Metrics Logging**: Captures latency, token usage, and aggregated creative quality
-**Tests** : Automated tests (Pytest) for schema and logic validation.
-**Streamlit UI**: Interactive front-end to run in mock/live mode, upload briefs, and visualize 
-**Dockerized Deployment**: Reproducible environment for reviewers to test seamlessly.
+- **Prompt Builder**: Dynamically composes system and user prompts based on campaign brief and knowledge 
+- **Schema validation** : Enforces `schema/campaign_schema.json` for ingestibility.
+- **Grounding (KB)** : Fetches real product facts from `kb/products.json` to minimize hallucinations.
+- **Creative Scoring**: Heuristic scoring based on headline, body, and CTA strength.
+- **Logging** : Saves every run (brief, raw reply, final JSON, and errors) under `OUTPUTS/`.
+- **Metrics Logging**: Captures latency, token usage, and aggregated creative quality
+- **Tests** : Automated tests (Pytest) for schema and logic validation.
+- **Streamlit UI**: Interactive front-end to run in mock/live mode, upload briefs, and visualize 
+- **Dockerized Deployment**: Reproducible environment for reviewers to test seamlessly.
 
 
 # Setup & Installation
