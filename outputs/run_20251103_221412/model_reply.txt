@@ -1,0 +1,63 @@
+{
+  "campaign_id": "cmp_2025_09_01",
+  "campaign_name": "FocusFlow Trial Signups",
+  "objective": "increase trial signups by 20% over next 30 days",
+  "total_budget": 5000,
+  "budget_breakdown": {
+    "search": 3000,
+    "social": 2000
+  },
+  "ad_groups": [
+    {
+      "id": "adg_1",
+      "target": {
+        "segment_hint": "young professionals",
+        "age": "18-35"
+      },
+      "creatives": [
+        {
+          "id": "creative_1",
+          "headline": "Boost Your Productivity",
+          "body": "Try FocusFlow's AI tools for task prioritization. Free 14-day trial!",
+          "cta": "Start Your Free Trial",
+          "justification": "Targeting young professionals with a focus on productivity."
+        },
+        {
+          "id": "creative_2",
+          "headline": "Stay Organized Anywhere",
+          "body": "Experience calendar integration and offline mode. Sign up for a free trial!",
+          "cta": "Learn More",
+          "justification": "Highlighting key features for young professionals."
+        }
+      ]
+    },
+    {
+      "id": "adg_2",
+      "target": {
+        "segment_hint": "remote workers",
+        "age": "25-45"
+      },
+      "creatives": [
+        {
+          "id": "creative_3",
+          "headline": "Work Smarter with FocusFlow",
+          "body": "Join remote workers using AI to prioritize tasks. Free 14-day trial!",
+          "cta": "Try It Now",
+          "justification": "Targeting remote workers with a focus on productivity."
+        },
+        {
+          "id": "creative_4",
+          "headline": "Your Tasks, Simplified",
+          "body": "Enjoy offline mode and calendar integration. Start your free trial today!",
+          "cta": "Get Started",
+          "justification": "Emphasizing features that benefit remote workers."
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "budget_sum_ok": true,
+    "required_fields_present": true,
+    "grounding_source": "FocusFlow"
+  }
+}

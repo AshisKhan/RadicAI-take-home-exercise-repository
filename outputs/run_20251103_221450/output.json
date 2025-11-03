@@ -1,0 +1,67 @@
+{
+  "campaign_id": "cmp_2025_09_01",
+  "campaign_name": "FocusFlow Trial Signups",
+  "objective": "increase trial signups by 20% over next 30 days",
+  "total_budget": 5000,
+  "budget_breakdown": {
+    "search": 3000,
+    "social": 2000
+  },
+  "ad_groups": [
+    {
+      "id": "adg_1",
+      "target": {
+        "segment_hint": "young professionals",
+        "age": "18-35"
+      },
+      "creatives": [
+        {
+          "id": "cr_1",
+          "headline": "Boost Your Productivity",
+          "body": "Try FocusFlow for 14 days free. AI tools to help you prioritize tasks.",
+          "cta": "Start Free Trial",
+          "justification": "Assuming young professionals are interested in productivity.",
+          "score": 0.2
+        },
+        {
+          "id": "cr_2",
+          "headline": "Stay Organized Anywhere",
+          "body": "FocusFlow integrates your calendar. Offline mode available. Try it free!",
+          "cta": "Learn More",
+          "justification": "Assuming young professionals value organization.",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "id": "adg_2",
+      "target": {
+        "segment_hint": "remote workers",
+        "age": "25-45"
+      },
+      "creatives": [
+        {
+          "id": "cr_3",
+          "headline": "Work Smarter, Not Harder",
+          "body": "Join FocusFlow for a 14-day free trial. AI-assisted task management.",
+          "cta": "Get Started",
+          "justification": "Assuming remote workers seek efficiency.",
+          "score": 0.6
+        },
+        {
+          "id": "cr_4",
+          "headline": "Your Tasks, Simplified",
+          "body": "FocusFlow helps you prioritize tasks. Try it free for 14 days!",
+          "cta": "Sign Up Now",
+          "justification": "Assuming remote workers need task simplification.",
+          "score": 0.6
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "budget_sum_ok": true,
+    "required_fields_present": true,
+    "grounding_source": "FocusFlow"
+  }
+}

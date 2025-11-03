@@ -1,0 +1,63 @@
+{
+  "campaign_id": "cmp_2025_09_01",
+  "campaign_name": "FocusFlow Plan",
+  "objective": "increase trial signups by 20% over next 30 days",
+  "total_budget": 5000,
+  "budget_breakdown": {
+    "search": 3000,
+    "social": 2000
+  },
+  "ad_groups": [
+    {
+      "id": "ag_1",
+      "target": {
+        "segment_hint": "young professionals",
+        "age": "25-45"
+      },
+      "creatives": [
+        {
+          "id": "c_1a",
+          "headline": "FocusFlow — Try Free",
+          "body": "AI-assisted task prioritization — concise benefit-driven copy.",
+          "cta": "Start Free Trial",
+          "justification": "Mock creative: deterministic rule-based output; conservative wording."
+        },
+        {
+          "id": "c_1b",
+          "headline": "FocusFlow — Try Free",
+          "body": "AI-assisted task prioritization — concise benefit-driven copy.",
+          "cta": "Start Free Trial",
+          "justification": "Mock creative: deterministic rule-based output; conservative wording."
+        }
+      ]
+    },
+    {
+      "id": "ag_2",
+      "target": {
+        "segment_hint": "remote workers",
+        "age": "25-45"
+      },
+      "creatives": [
+        {
+          "id": "c_2a",
+          "headline": "FocusFlow — Try Free",
+          "body": "AI-assisted task prioritization — concise benefit-driven copy.",
+          "cta": "Start Free Trial",
+          "justification": "Mock creative: deterministic rule-based output; conservative wording."
+        },
+        {
+          "id": "c_2b",
+          "headline": "FocusFlow — Try Free",
+          "body": "AI-assisted task prioritization — concise benefit-driven copy.",
+          "cta": "Start Free Trial",
+          "justification": "Mock creative: deterministic rule-based output; conservative wording."
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "budget_sum_ok": true,
+    "required_fields_present": true,
+    "grounding_source": "FocusFlow"
+  }
+}

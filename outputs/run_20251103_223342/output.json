@@ -1,0 +1,67 @@
+{
+  "campaign_id": "cmp_2025_10_15",
+  "campaign_name": "EcoSip Awareness Campaign",
+  "objective": "raise awareness and collect 1k leads in 60 days",
+  "total_budget": 3000,
+  "budget_breakdown": {
+    "social": 1800,
+    "other": 1200
+  },
+  "ad_groups": [
+    {
+      "id": "adg_eco_conscious",
+      "target": {
+        "segment_hint": "eco-conscious consumers",
+        "age": "18-45"
+      },
+      "creatives": [
+        {
+          "id": "creative_1",
+          "headline": "Discover EcoSip!",
+          "body": "Stay hydrated sustainably with our EcoSip bottle. Learn more today!",
+          "cta": "Learn More",
+          "justification": "Targeting eco-conscious consumers.",
+          "score": 0.6
+        },
+        {
+          "id": "creative_2",
+          "headline": "Eco-Friendly Hydration",
+          "body": "Join the movement! Try our EcoSip bottle made from biodegradable materials.",
+          "cta": "Get Yours",
+          "justification": "Targeting eco-conscious consumers.",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "id": "adg_outdoor_enthusiasts",
+      "target": {
+        "segment_hint": "outdoor enthusiasts",
+        "age": "18-45"
+      },
+      "creatives": [
+        {
+          "id": "creative_3",
+          "headline": "Adventure with EcoSip",
+          "body": "Perfect for your outdoor adventures! Check out EcoSip bottles.",
+          "cta": "Shop Now",
+          "justification": "Targeting outdoor enthusiasts.",
+          "score": 0.6
+        },
+        {
+          "id": "creative_4",
+          "headline": "Stay Hydrated Outdoors",
+          "body": "EcoSip bottles are leak-proof and ready for your next adventure!",
+          "cta": "Explore More",
+          "justification": "Targeting outdoor enthusiasts.",
+          "score": 0.2
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "budget_sum_ok": true,
+    "required_fields_present": true,
+    "grounding_source": "EcoSip"
+  }
+}

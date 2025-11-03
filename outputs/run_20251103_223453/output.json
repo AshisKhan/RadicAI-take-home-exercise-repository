@@ -1,0 +1,67 @@
+{
+  "campaign_id": "cmp_2025_09_01",
+  "campaign_name": "FocusFlow Trial Signups",
+  "objective": "increase trial signups by 20% over next 30 days",
+  "total_budget": 5000,
+  "budget_breakdown": {
+    "search": 3000,
+    "social": 2000
+  },
+  "ad_groups": [
+    {
+      "id": "adg_1",
+      "target": {
+        "segment_hint": "young professionals",
+        "age": "18-35"
+      },
+      "creatives": [
+        {
+          "id": "creative_1",
+          "headline": "Boost Your Productivity",
+          "body": "Try FocusFlow's AI-assisted task prioritization for free!",
+          "cta": "Start Free Trial",
+          "justification": "Targeting young professionals interested in productivity.",
+          "score": 0.2
+        },
+        {
+          "id": "creative_2",
+          "headline": "Stay Organized Anywhere",
+          "body": "Experience calendar integration and offline mode with FocusFlow.",
+          "cta": "Learn More",
+          "justification": "Appealing to young professionals' need for organization.",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "id": "adg_2",
+      "target": {
+        "segment_hint": "remote workers",
+        "age": "25-45"
+      },
+      "creatives": [
+        {
+          "id": "creative_3",
+          "headline": "Work Smarter, Not Harder",
+          "body": "Try FocusFlow's free 14-day trial and enhance your workflow.",
+          "cta": "Start Free Trial",
+          "justification": "Targeting remote workers looking for productivity tools.",
+          "score": 0.2
+        },
+        {
+          "id": "creative_4",
+          "headline": "Your Tasks, Simplified",
+          "body": "FocusFlow helps you prioritize tasks efficiently. Try it free!",
+          "cta": "Learn More",
+          "justification": "Highlighting features relevant to remote workers.",
+          "score": 0.6
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "budget_sum_ok": true,
+    "required_fields_present": true,
+    "grounding_source": "FocusFlow"
+  }
+}

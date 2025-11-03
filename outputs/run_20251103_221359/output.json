@@ -1,0 +1,66 @@
+{
+  "campaign_id": "cmp_2025_10_15",
+  "campaign_name": "EcoSip Plan",
+  "objective": "raise awareness and collect 1k leads in 60 days",
+  "total_budget": 3000,
+  "budget_breakdown": {
+    "social": 3000
+  },
+  "ad_groups": [
+    {
+      "id": "ag_1",
+      "target": {
+        "segment_hint": "eco-conscious consumers",
+        "age": "25-45"
+      },
+      "creatives": [
+        {
+          "id": "c_1a",
+          "headline": "EcoSip — Learn More",
+          "body": "double-wall insulation — concise benefit-driven copy.",
+          "cta": "Learn More",
+          "justification": "Mock creative: deterministic rule-based output; conservative wording.",
+          "score": 0.6
+        },
+        {
+          "id": "c_1b",
+          "headline": "EcoSip — Learn More",
+          "body": "double-wall insulation — concise benefit-driven copy.",
+          "cta": "Learn More",
+          "justification": "Mock creative: deterministic rule-based output; conservative wording.",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "id": "ag_2",
+      "target": {
+        "segment_hint": "outdoor enthusiasts",
+        "age": "25-45"
+      },
+      "creatives": [
+        {
+          "id": "c_2a",
+          "headline": "EcoSip — Learn More",
+          "body": "double-wall insulation — concise benefit-driven copy.",
+          "cta": "Learn More",
+          "justification": "Mock creative: deterministic rule-based output; conservative wording.",
+          "score": 0.6
+        },
+        {
+          "id": "c_2b",
+          "headline": "EcoSip — Learn More",
+          "body": "double-wall insulation — concise benefit-driven copy.",
+          "cta": "Learn More",
+          "justification": "Mock creative: deterministic rule-based output; conservative wording.",
+          "score": 0.6
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "budget_sum_ok": true,
+    "required_fields_present": true,
+    "grounding_source": "EcoSip"
+  }
+}

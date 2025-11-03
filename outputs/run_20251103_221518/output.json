@@ -1,0 +1,67 @@
+{
+  "campaign_id": "cmp_2025_10_15",
+  "campaign_name": "EcoSip Awareness Campaign",
+  "objective": "raise awareness and collect 1k leads in 60 days",
+  "total_budget": 3000,
+  "budget_breakdown": {
+    "social": 1800,
+    "other": 1200
+  },
+  "ad_groups": [
+    {
+      "id": "adgroup_eco_conscious",
+      "target": {
+        "segment_hint": "eco-conscious consumers",
+        "age": "18-45"
+      },
+      "creatives": [
+        {
+          "id": "creative_1",
+          "headline": "Stay Hydrated Sustainably",
+          "body": "Discover EcoSip, a sustainable water bottle made from biodegradable materials.",
+          "cta": "Learn More",
+          "justification": "Targeting eco-conscious consumers.",
+          "score": 1.0
+        },
+        {
+          "id": "creative_2",
+          "headline": "Sip with a Purpose",
+          "body": "Try EcoSip's double-wall insulation and leak-proof design for your adventures.",
+          "cta": "Get Yours Now",
+          "justification": "Targeting eco-conscious consumers.",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "id": "adgroup_outdoor_enthusiasts",
+      "target": {
+        "segment_hint": "outdoor enthusiasts",
+        "age": "18-45"
+      },
+      "creatives": [
+        {
+          "id": "creative_3",
+          "headline": "Adventure Awaits",
+          "body": "EcoSip is perfect for your outdoor adventures with its leak-proof lid.",
+          "cta": "Shop Now",
+          "justification": "Targeting outdoor enthusiasts.",
+          "score": 0.6
+        },
+        {
+          "id": "creative_4",
+          "headline": "Eco-Friendly Hydration",
+          "body": "Stay refreshed with EcoSip's double-wall insulation. Perfect for any outing!",
+          "cta": "Explore More",
+          "justification": "Targeting outdoor enthusiasts.",
+          "score": 0.2
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "budget_sum_ok": true,
+    "required_fields_present": true,
+    "grounding_source": "EcoSip"
+  }
+}

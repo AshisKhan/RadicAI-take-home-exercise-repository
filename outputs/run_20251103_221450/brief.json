@@ -1,0 +1,24 @@
+{
+  "campaign_id": "cmp_2025_09_01",
+  "goal": "increase trial signups by 20% over next 30 days",
+  "product": {
+    "name": "FocusFlow",
+    "category": "productivity app",
+    "key_features": [
+      "AI-assisted task prioritization",
+      "calendar integration",
+      "offline mode"
+    ],
+    "price": "free trial (14d) then $9.99/mo"
+  },
+  "budget": 5000,
+  "channels": [
+    "search",
+    "social"
+  ],
+  "audience_hints": [
+    "young professionals",
+    "remote workers"
+  ],
+  "tone": "confident and concise"
+}

@@ -1,0 +1,23 @@
+{
+  "campaign_id": "cmp_2025_10_15",
+  "goal": "raise awareness and collect 1k leads in 60 days",
+  "product": {
+    "name": "EcoSip",
+    "category": "sustainable water bottle",
+    "key_features": [
+      "double-wall insulation",
+      "biodegradable materials",
+      "leak-proof lid"
+    ],
+    "price": "$24.99"
+  },
+  "budget": 3000,
+  "channels": [
+    "social"
+  ],
+  "audience_hints": [
+    "eco-conscious consumers",
+    "outdoor enthusiasts"
+  ],
+  "tone": "friendly and informative"
+}

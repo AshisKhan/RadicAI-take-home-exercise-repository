@@ -1,0 +1,13 @@
+{
+  "mode": "live",
+  "model": "gpt-4o-mini",
+  "latency_sec": 16.43,
+  "token_usage": {
+    "input_tokens": 582,
+    "output_tokens": 483,
+    "total_tokens": 1065
+  },
+  "num_ad_groups": 2,
+  "num_creatives": 4,
+  "avg_creative_score": 0.5
+}

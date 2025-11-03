@@ -1,0 +1,9 @@
+{
+  "mode": "mock",
+  "model": "gpt-4o-mini",
+  "latency_sec": 0,
+  "token_usage": {},
+  "num_ad_groups": 2,
+  "num_creatives": 4,
+  "avg_creative_score": 0.2
+}

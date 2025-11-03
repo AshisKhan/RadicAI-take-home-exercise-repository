@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv/
+env/
+radicaienv/
+
+# IDEs
+.vscode/
+.idea/
+
+
+# Streamlit cache
+.streamlit/
+.cache/
+
+# System files
+Thumbs.db
+.DS_Store
