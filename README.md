@@ -61,9 +61,8 @@ pytest -q
 pytest -q -m Live
 
 
-
-
 ```bash
-git clone https://github.com/AshisKhan/take-home-exercise-RadicAI.git
+git clone https://github.com/AshisKhan/RadicAI-take-home-exercise-repository.git
 cd project
 pip install -r requirements.txt
+
